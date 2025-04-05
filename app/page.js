@@ -22,8 +22,7 @@ export default function Home() {
         {/* Famous Quote */}
         <section className="text-center max-w-4xl mx-auto px-4">
           <p className="text-base sm:text-lg md:text-xl italic text-gray-700 leading-relaxed">
-            "Education is not the learning of facts, but the training of the
-            mind to think."
+            {`"Education is not the learning of facts, but the training of the mind to think."`}
           </p>
           <span className="block mt-3 text-gray-500 text-sm sm:text-base font-medium">
             - Albert Einstein
@@ -75,8 +74,8 @@ export default function Home() {
             </div>
 
             <p>
-              <strong className="text-blue-700">Address:</strong> JSPM's Rajarshi Shahu College of Engineering, Tathawade,
-              Pune
+              <strong className="text-blue-700">Address:</strong>{" "}
+              {`JSPM's Rajarshi Shahu College of Engineering, Tathawade, Pune`}
             </p>
 
             <p>
