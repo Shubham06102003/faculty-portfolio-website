@@ -6,7 +6,6 @@ import { useEffect, useRef } from 'react';
 
 const slides = [
   'Published 20+ research papers in international journals',
-  'Keynote speaker at multiple global conferences',
   'Over 15 years of teaching experience',
 ];
 

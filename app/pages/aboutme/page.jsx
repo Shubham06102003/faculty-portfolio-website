@@ -21,7 +21,7 @@ export default function AboutPage() {
         <section>
           <h2 className="text-2xl font-semibold text-blue-700 mb-3">Work Experience</h2>
           <p>
-            Working as Associate Professor in Information Technology Department, JSPM's Rajarshi Shahu College of Engineering, Pune since <strong>02/07/2012</strong>
+            Working as Assistant Professor in Information Technology Department, JSPM's Rajarshi Shahu College of Engineering, Pune since <strong>02/07/2012</strong>
           </p>
         </section>
 

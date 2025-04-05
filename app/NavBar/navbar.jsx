@@ -15,7 +15,7 @@ const Navbar = () => {
     { label: 'Achievements', href: '/pages/achievements' },
     { label: 'Research', href: '/pages/research' },
     { label: 'FDP/Workshops', href: '/pages/fdp-workshops' },
-    { label: 'Clubs', href: '/clubs' },
+    { label: 'Chapters', href: '/pages/chapter' },
   ];
 
   return (

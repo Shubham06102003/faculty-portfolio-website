@@ -9,7 +9,6 @@ const workshopImages = [
   "/fdp-workshop/w4.jpg",
   "/fdp-workshop/w5.jpg",
   "/fdp-workshop/w6.jpg",
-  "/fdp-workshop/w7.jpg",
   // Add more image paths as needed
 ];
 
