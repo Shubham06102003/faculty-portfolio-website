@@ -31,13 +31,17 @@ const researchPapers = [
 ];
 
 const patents = [
-  "A Robust Biometric Fingerprint Recognition System using Level 3 Features and ML, 13/05/2019.",
+  "AI based Computer for a Holistic Data Governance Framework",
+  "AI based device for Microarray Gene Profile Analysis",
+  "Artificial Intelligence-based medical testing equipment for Cancer Classification using Gene Profiles",
+  "INTELLIGENT RESOURCE ALLOCATION IN IOT NETWORKS USING MACHINE LEARNING",
+  "Improved Black board",
 ];
 
 const copyrights = [
-  "Real-time Object Detection using Deep Learning, 2022.",
-  "MASK RCNN for Dental X-ray Segmentation & Tooth Numbering, 2022.",
-  "Automatic Vehicle Plate Recognition using Deep Learning, 2022.",
+  "Characterizing and Classifying Brain Tumors via HOG Features",
+  "Enhancing Healthcare System Using AI ML",
+  "Deep Learning Approach for Driver Safety",
 ];
 
 export default function ResearchPage() {
@@ -48,6 +52,7 @@ export default function ResearchPage() {
           Research Contributions
         </h1>
 
+        {/* Paper Publications */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-[#1e3a8a] mb-4 border-b border-gray-300 pb-2">
             📄 Paper Publications
@@ -59,9 +64,10 @@ export default function ResearchPage() {
           </ol>
         </section>
 
+        {/* Patents */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-[#1e3a8a] mb-4 border-b border-gray-300 pb-2">
-            📑 Patent
+            🧠 Patents
           </h2>
           <ul className="list-disc list-inside space-y-2 text-base">
             {patents.map((patent, index) => (
@@ -70,6 +76,7 @@ export default function ResearchPage() {
           </ul>
         </section>
 
+        {/* Copyrights */}
         <section>
           <h2 className="text-2xl font-semibold text-[#1e3a8a] mb-4 border-b border-gray-300 pb-2">
             © Copyrights

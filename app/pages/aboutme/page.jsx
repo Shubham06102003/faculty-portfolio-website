@@ -21,7 +21,7 @@ export default function AboutPage() {
         <section>
           <h2 className="text-2xl font-semibold text-blue-700 mb-3">Work Experience</h2>
           <p>
-            Working as Associate Professor in Information Technology Department, JSPM's Rajarshi Shahu College of Engineering, Pune since <strong>10/02/2010</strong>
+            Working as Associate Professor in Information Technology Department, JSPM's Rajarshi Shahu College of Engineering, Pune since <strong>02/07/2012</strong>
           </p>
         </section>
 
@@ -29,32 +29,36 @@ export default function AboutPage() {
         <section>
           <h2 className="text-2xl font-semibold text-blue-700 mb-3">Subjects Taught</h2>
           <ul className="list-disc list-inside space-y-1 pl-2">
-            <li>Machine Learning & Applications</li>
-            <li>Computational Statistics</li>
-            <li>Computer Organization and Architecture</li>
+            <li>Universal Human Values and Ethics</li>
+            <li>System Software</li>
+            <li>Software Testing and Quality Assurance</li>
+            <li>Multimedia System</li>
+            <li>Operating System</li>
+            <li>Software Engineering</li>
+            <li>Advance Computer Architecture</li>
             <li>Digital Electronics and Logic Design</li>
-            <li>Processor Architecture and Interfacing</li>
-            <li>Information Retrieval</li>
-            <li>Information and Cyber Security</li>
-            <li>Human Computer & Interaction</li>
+            <li>Object Oriented Programming</li>
+            <li>Embedded Operating System</li>
+            <li>Microprocessor</li>
+            <li>Fundamentals of Programming Languages</li>
+            <li>Advance Software Modeling</li>
+            <li>Business Analytics and Intelligence</li>
           </ul>
         </section>
 
-        {/* Portfolios Handled */}
+        {/* Other Responsibilities */}
         <section>
-          <h2 className="text-2xl font-semibold text-blue-700 mb-3">Portfolios Handled</h2>
+          <h2 className="text-2xl font-semibold text-blue-700 mb-3">Other Responsibilities</h2>
           <ul className="list-disc list-inside space-y-1 pl-2">
-            <li>NBA Criterion IV and VI Coordinator</li>
-            <li>NBA Module Coordinator</li>
-            <li>NAAC Criterion IV Coordinator</li>
-            <li>Autonomy Coordinator</li>
-            <li>Department Academic Coordinator</li>
-            <li>Artificial Coding Club Coordinator</li>
-            <li>University Exam Senior Supervisor</li>
-            <li>Autonomy Exam Coordinator</li>
-            <li>Institute Magazine Committee Coordinator</li>
-            <li>Innovation Cell Coordinator</li>
-            <li>JSPM Satellite Club Coordinator</li>
+            <li>NBA Criteria 6 Coordinator</li>
+            <li>Institute Moodle Coordinator</li>
+            <li>Exam Coordinator</li>
+            <li>Admission Coordinator</li>
+            <li>Faculty Feedback Coordinator</li>
+            <li>Module Coordinator</li>
+            <li>Project Coordinator</li>
+            <li>ERP Coordinator</li>
+            <li>ICT Coordinator</li>
           </ul>
         </section>
 

@@ -10,10 +10,10 @@ const Navbar = () => {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'About Me', href: '/pages/aboutme' },
-    { label: 'Achievements', href: '/achievements' },
-    { label: 'Book Published', href: '/books' },
+    { label: 'Achievements', href: '/pages/achievements' },
+    // { label: 'Book Published', href: '/books' },
     { label: 'Research', href: '/pages/research' },
-    { label: 'Workshops', href: '/workshops' },
+    { label: 'Workshops', href: '/pages/fdp-workshops' },
     { label: 'Clubs', href: '/clubs' },
   ];
 
