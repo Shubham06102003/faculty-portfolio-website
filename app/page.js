@@ -80,7 +80,7 @@ export default function Home() {
 
             <p>
               <strong className="text-blue-700">Email:</strong>{" "}
-              rupaliumbare@jspmrscoe.edu.in
+              rtumbare_it@jspmrscoe.edu.in
             </p>
 
             <p>
