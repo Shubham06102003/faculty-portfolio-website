@@ -12,7 +12,7 @@ const Navbar = () => {
     { label: 'About Me', href: '/pages/aboutme' },
     { label: 'Achievements', href: '/achievements' },
     { label: 'Book Published', href: '/books' },
-    { label: 'Research', href: '/research' },
+    { label: 'Research', href: '/pages/research' },
     { label: 'Workshops', href: '/workshops' },
     { label: 'Clubs', href: '/clubs' },
   ];

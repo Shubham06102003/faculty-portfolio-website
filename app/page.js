@@ -1,3 +1,5 @@
+"use client";
+
 import Carousel from "./components/Carousel";
 import Image from "next/image";
 import Navbar from "./NavBar/navbar";
@@ -32,7 +34,7 @@ export default function Home() {
         {/* Professor Info Section */}
         <section className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16">
           {/* Professor Image */}
-          <div className="w-full lg:w-1/3 flex justify-center">
+          <div className="w-full flex justify-center">
             <Image
               src="/profile.jpg"
               alt="Professor Photo"
@@ -43,7 +45,7 @@ export default function Home() {
           </div>
 
           {/* Professor Info */}
-          <div className="w-full lg:w-2/3 space-y-5 text-center lg:text-left text-base sm:text-lg">
+          <div className="w-full space-y-5 text-center lg:text-left text-base sm:text-lg">
             <h2 className="text-3xl sm:text-4xl font-bold text-blue-900">
               Prof. Rupali Umbare
             </h2>
@@ -53,18 +55,19 @@ export default function Home() {
               Department of Information Technology
             </p>
 
+            {/* Responsive Education Section */}
             <div>
-              <strong className="text-blue-700">Education:</strong>
-              <ul className="mt-2 pl-4 list-disc text-left lg:pl-6">
-                <li className="mt-1">
+              <strong className="text-blue-700 block mb-2">Education:</strong>
+              <ul className="list-disc list-inside space-y-2 text-left">
+                <li>
                   <span className="font-medium">Ph.D.</span> from SJJTU
                   (Pursuing)
                 </li>
-                <li className="mt-1">
+                <li>
                   <span className="font-medium">M.E. (Computer Network)</span>{" "}
                   from SPPU with 6.68 CGPA
                 </li>
-                <li className="mt-1">
+                <li>
                   <span className="font-medium">
                     B.E. (Information Technology)
                   </span>{" "}
