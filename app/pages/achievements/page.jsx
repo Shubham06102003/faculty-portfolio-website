@@ -8,6 +8,7 @@ const certificates = [
   "/certificates/c3.jpg",
   "/certificates/c4.jpg",
   "/certificates/c5.jpg",
+  "/certificates/c6.jpg",
   // Add more as needed
 ];
 

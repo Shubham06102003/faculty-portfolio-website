@@ -3,17 +3,18 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'About Me', href: '/pages/aboutme' },
     { label: 'Achievements', href: '/pages/achievements' },
-    // { label: 'Book Published', href: '/books' },
     { label: 'Research', href: '/pages/research' },
-    { label: 'Workshops', href: '/pages/fdp-workshops' },
+    { label: 'FDP/Workshops', href: '/pages/fdp-workshops' },
     { label: 'Clubs', href: '/clubs' },
   ];
 
@@ -29,7 +30,13 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
             {navItems.map((item) => (
-              <Link key={item.label} href={item.href} className="text-gray-700 hover:text-blue-700 transition font-medium">
+              <Link
+                key={item.label}
+                href={item.href}
+                className={`text-gray-700 hover:text-blue-700 transition font-medium ${
+                  pathname === item.href ? 'text-blue-700 font-semibold' : ''
+                }`}
+              >
                 {item.label}
               </Link>
             ))}
@@ -52,7 +59,9 @@ const Navbar = () => {
               key={item.label}
               href={item.href}
               onClick={() => setMenuOpen(false)}
-              className="block text-gray-700 hover:text-blue-700 transition font-medium"
+              className={`block text-gray-700 hover:text-blue-700 transition font-medium ${
+                pathname === item.href ? 'text-blue-700 font-semibold underline' : ''
+              }`}
             >
               {item.label}
             </Link>
