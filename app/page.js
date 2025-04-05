@@ -26,7 +26,7 @@ export default function Home() {
             mind to think."
           </p>
           <span className="block mt-3 text-gray-500 text-sm sm:text-base font-medium">
-            – Albert Einstein
+            - Albert Einstein
           </span>
         </section>
 
